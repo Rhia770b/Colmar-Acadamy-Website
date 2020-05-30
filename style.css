@@ -2,7 +2,7 @@ html {
     width: 1000px;
     height: auto;
     margin: 0 auto;
-    background-image: url('/uni.jpg');
+    background-image: url('uni.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
