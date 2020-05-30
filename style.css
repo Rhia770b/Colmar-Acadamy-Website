@@ -1,0 +1,338 @@
+html {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url('../images/uni.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+body {
+    width: 1000px;
+    margin: 0;
+    height: auto;
+    background-color: rgb(182, 195, 224);
+    font-family: 'Barlow', sans-serif;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+}
+
+/*Header*/
+
+header {
+    height: 55px;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.title {
+   font-size: 20px;
+}
+
+.colmar-logo {
+    margin-left: 24px;
+}
+
+nav {
+    float: right;
+    position: relative;
+    bottom: 40px;
+}
+
+li {
+    font-size: 18px;
+    display: inline; 
+    margin-right: 24px;
+}
+
+.title, .logo, nav {
+    display: inline;
+}
+
+.logo {
+   position: relative;
+   top: 10px;
+}
+
+li:hover {
+    color: white;
+    transition-duration: 0.1s;
+}
+
+
+/*Banner*/
+
+.banner {
+    width: 100%;
+    height: 472px;
+    background-color:rgb(186, 199, 202);
+    border-bottom: 2px solid white;
+}
+
+.banner-img {
+    width: 55%;
+    height: auto;
+    margin: 32px 24px;
+    float: left;
+    position: relative;
+}
+
+.banner-info {
+    float: right;
+    width: 30%;
+    position: relative;
+    top: 110px;  
+    right: 70px;
+    text-align: center;
+}
+
+button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(24, 27, 65);
+    color: white;
+    border-style: solid;
+    border-color: rgb(24, 27, 65);
+    border-radius: 7px;
+    font-family: 'PT Sans';
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-weight: bold;
+    transition-duration: 0.1s;
+    
+    
+
+}
+
+/*box-1*/
+
+.box-1 {
+    width: 1000px;
+    height: 600px;
+    border-bottom: 2px solid white;
+}
+
+.information {
+    width: 55%;
+    height: auto;
+    margin: 32px 24px;
+    position: relative;
+    
+}
+
+.left-side {
+    margin: 32px 24px;
+    width: 55%;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+
+.right-side {
+    width: 40%;
+    float: right;
+    position: relative;
+    bottom: 581px;
+    height: auto;
+    margin-top: 23px;
+    margin-left: 24px;
+    
+}
+
+.info-pic {
+    width: 35%;
+    margin-bottom: 40px;
+}
+
+.info-right {
+    width: 65%;
+    height: 127px;
+    float: right;
+    position: relative;
+    left: 15px;
+
+}
+
+.info-pic, .info-right {
+    display: inline-block;
+}
+
+.notes, .link {
+    line-height: 5px;
+}
+
+
+.link:hover {
+   color: white;
+   transition-duration: 0.1s;
+}
+
+/*Courses*/
+
+.course-heading {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 520px;
+}
+
+.courses {
+    height: 550px;
+    background-color:rgb(186, 199, 202);
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    margin: 16px;
+}
+
+.course-pic {
+    height: auto;
+    width: 255px;
+    border-radius: 5px;
+}
+
+figcaption {
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+figcaption:hover {
+    border-color: rgb(24, 27, 65);
+    background-color: rgb(24, 27, 65);
+    color: white;
+    transition-duration: 0.1s;
+    font-weight: normal;
+}
+
+.row {
+    display: inline-block;
+    position: relative;
+    bottom: 520px;
+}
+
+/*thesis*/
+
+.thesis {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    border-bottom: 2px solid white;
+}
+
+.thesis-heading {
+    text-align: center;
+    position: relative;
+    top: 35px;
+    width: 100%;
+}
+
+video {
+    width: 60%;
+    height: auto;
+}
+
+.left, .right {
+    position: relative;
+}
+
+.left {
+    width: 60%
+    float: left;
+    position: relative;
+    top: 50px;
+    margin-left: 24px;
+}
+
+.right {
+    width: 35%;
+    float: right;
+    position: relative;
+    margin-left: 24px;
+    right: 18px;
+    bottom: 382px;
+}
+
+.urban-text {
+    line-height: 5px;
+}
+
+.thesis-pic {
+    width: 35%
+}
+
+.thesis-pic, .info-right {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#empire {
+    position: relative;
+    bottom: 150px;
+}
+
+.note {
+    line-height: 5px;
+}
+
+#highlight:hover {
+    color: white;
+    transition-duration: 0.1s;
+    font-weight: normal;
+}
+
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color:rgb(186, 199, 202); 
+}
+
+.copyright, .footer-nav {
+    display: inline-block;
+    position: relative;
+}
+
+.term {
+    font-size: 14px;
+    margin-right: 24px;
+    position: relative;
+    top: 35px;
+}
+
+.term:hover {
+    color: white;
+    transition-duration: 0.1s;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-left: 24px;
+}
+
+.green {
+    width: 100%;
+    height: 450px;
+    background-color:rgb(186, 199, 202);
+}
